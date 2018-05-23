@@ -1,0 +1,23 @@
+const config = {
+  bots: [
+    {
+      userId: '1234',
+      route: 'foobar',
+      channels: ['#foobar'],
+      server: 'irc.foobar.org',
+      botname: 'foobar',
+      realName: 'irc notifier - maintainer foobar',
+      client_id: 'foobar',
+      client_secret: 'foobar',
+      refresh_token: 'foobar',
+      tokenUrl: 'https://id.twitch.tv/oauth2/token',
+      apiUrl: 'https://api.twitch.tv/helix',
+      timeout: 864000,
+      callbackUrl: 'http://foobar.com:3000/foobar',
+    },
+  ],
+  subscriptionSecret: 'foobar',
+  refreshTimeout: 863000,
+}
+
+export default config

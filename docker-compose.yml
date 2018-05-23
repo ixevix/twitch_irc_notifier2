@@ -1,0 +1,18 @@
+version: "2"
+services:
+  app-test:
+    container_name: exprboil-app-test
+    image: ericnishio/express-boilerplate
+    volumes:
+      - ./:/app
+    ports:
+      - "3000:3000"
+    links:
+      - mongo-test
+    env_file:
+      - .env.test
+  mongo-test:
+    container_name: exprboil-mongo-test
+    image: mongo
+    ports:
+      - "27017:27017"
