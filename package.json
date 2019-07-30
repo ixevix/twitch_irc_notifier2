@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "@types/irc": "^0.3.32",
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.2",
     "cors": "^2.8.4",
